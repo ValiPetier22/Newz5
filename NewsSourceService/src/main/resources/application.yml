@@ -1,0 +1,13 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+  data:
+    mongodb:
+      #username: ${MONGO_USER}
+      #password: ${MONGO_PASSWORD}
+      database: DBStep5
+      port: 27017
+      host: localhost
+server:
+  port: 8091

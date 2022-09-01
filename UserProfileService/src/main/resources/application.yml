@@ -1,0 +1,11 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+  data:
+    mongodb:
+      database: DBStep5UserProfileService
+      port: 27017
+      host: localhost
+server:
+  port: 9093
